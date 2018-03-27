@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="voice-cordova-plugin"
+    id="cordova-plugin-voice"
     version="1.0.0">
     <name>Cordova Plugin for Voice</name>
     <description></description>
@@ -12,7 +12,7 @@
 
     <!-- android -->
     <platform name="android">
-      <js-module src="www/plugin.js" name="plugin">
+      <js-module src="www/voice.js" name="plugin">
         <runs/>
 
         <!-- This is the window variable name you want, like window.VoiceCordovaPlugin -->
@@ -30,7 +30,7 @@
 
     <!-- ios -->
     <platform name="ios">
-        <js-module src="www/plugin.js" name="plugin">
+        <js-module src="www/voice.js" name="plugin">
             <runs/>
             <clobbers target="VoiceCordovaPlugin" />
         </js-module>
