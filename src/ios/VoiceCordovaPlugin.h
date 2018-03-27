@@ -4,7 +4,9 @@
 }
 
 // The hooks for our plugin commands
-- (void)echo:(CDVInvokedUrlCommand *)command;
+- (void)isSiriInitilized:(CDVInvokedUrlCommand *)command;
 - (void)getDate:(CDVInvokedUrlCommand *)command;
+- (void)clearData:(CDVInvokedUrlCommand *)command;
+- (void)setSupportedCurrency:(CDVInvokedUrlCommand *)command;
 
 @end
